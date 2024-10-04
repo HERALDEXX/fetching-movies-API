@@ -45,13 +45,14 @@ h1 {
     border: 1px solid #ddd;
     display: inline-block;
     text-align: center;
-    background-color: #1e1e1e;
-    border-radius: 30px;
+    border: none;
 }
 .movie a {
+    text-wrap: wrap;
     text-decoration: none;
     color: inherit;
 }
 img {
     max-width: 200px;
+    border-radius: 30px;
 }
