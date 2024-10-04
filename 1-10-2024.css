@@ -7,6 +7,10 @@ h1 {
     color: #ff0000;
     animation: fadeIn 2s ease-in;
 }
+h1:hover {
+    color: rgb(35, 11, 141);
+    cursor: pointer;
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -51,6 +55,7 @@ h1 {
     text-wrap: wrap;
     text-decoration: none;
     color: inherit;
+    cursor: url('red-pointer-cursor.png'), auto;
 }
 img {
     max-width: 200px;
